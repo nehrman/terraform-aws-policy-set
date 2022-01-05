@@ -16,7 +16,7 @@ module "tfrun-functions" {
 }
 
 policy "restrict-vm-size" {
-    source = "./restrict_vm_size_aws.sentinel"
+    source = "./restrict-current-ec2-instance-type.sentinel"
     enforcement_level = "soft-mandatory"
 }
     
